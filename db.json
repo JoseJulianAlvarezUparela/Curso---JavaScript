@@ -1,0 +1,84 @@
+{
+    "paises": [
+        {
+            "posicion": 1,
+            "nombre": "Estados Unidos",
+            "capital": "Washington D.C.",
+            "habitantes": 331900000,
+            "platoTipico": "Hamburguesa",
+            "eslogan": "The Land of the Free"
+        },
+        {
+            "posicion": 2,
+            "nombre": "China",
+            "capital": "Pekín",
+            "habitantes": 1412000000,
+            "platoTipico": "Pato a la Pekín",
+            "eslogan": "El Sueño Chino"
+        },
+        {
+            "posicion": 3,
+            "nombre": "India",
+            "capital": "Nueva Delhi",
+            "habitantes": 1417000000,
+            "platoTipico": "Curry",
+            "eslogan": "Unity in Diversity"
+        },
+        {
+            "posicion": 4,
+            "nombre": "Indonesia",
+            "capital": "Yakarta",
+            "habitantes": 277534000,
+            "platoTipico": "Rendang",
+            "eslogan": "Bhinneka Tunggal Ika"
+        },
+        {
+            "posicion": 5,
+            "nombre": "Pakistán",
+            "capital": "Islamabad",
+            "habitantes": 240485000,
+            "platoTipico": "Biryani",
+            "eslogan": "Iman, Ittehad, Nazm-o-Nizam"
+        },
+        {
+            "posicion": 6,
+            "nombre": "Brasil",
+            "capital": "Brasília",
+            "habitantes": 215313000,
+            "platoTipico": "Feijoada",
+            "eslogan": "Ordem e Progresso"
+        },
+        {
+            "posicion": 7,
+            "nombre": "Nigeria",
+            "capital": "Abuya",
+            "habitantes": 223804000,
+            "platoTipico": "Jollof Rice",
+            "eslogan": "Peace and Unity"
+        },
+        {
+            "posicion": 8,
+            "nombre": "Bangladesh",
+            "capital": "Daca",
+            "habitantes": 170099000,
+            "platoTipico": "Biryani",
+            "eslogan": "Sonar Bangla"
+        },
+        {
+            "posicion": 9,
+            "nombre": "Rusia",
+            "capital": "Moscú",
+            "habitantes": 144444000,
+            "platoTipico": "Borscht",
+            "eslogan": "Por el bien de Rusia"
+        },
+        {
+            "posicion": 10,
+            "nombre": "México",
+            "capital": "Ciudad de México",
+            "habitantes": 128932000,
+            "platoTipico": "Mole",
+            "eslogan": "Tierra de Culturas"
+        }
+    ]
+}
