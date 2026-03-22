@@ -1,84 +1,86 @@
 {
-    "paises": [
-        {
-            "posicion": 1,
-            "nombre": "Estados Unidos",
-            "capital": "Washington D.C.",
-            "habitantes": 331900000,
-            "platoTipico": "Hamburguesa",
-            "eslogan": "The Land of the Free"
-        },
-        {
-            "posicion": 2,
-            "nombre": "China",
-            "capital": "Pekín",
-            "habitantes": 1412000000,
-            "platoTipico": "Pato a la Pekín",
-            "eslogan": "El Sueño Chino"
-        },
-        {
-            "posicion": 3,
-            "nombre": "India",
-            "capital": "Nueva Delhi",
-            "habitantes": 1417000000,
-            "platoTipico": "Curry",
-            "eslogan": "Unity in Diversity"
-        },
-        {
-            "posicion": 4,
-            "nombre": "Indonesia",
-            "capital": "Yakarta",
-            "habitantes": 277534000,
-            "platoTipico": "Rendang",
-            "eslogan": "Bhinneka Tunggal Ika"
-        },
-        {
-            "posicion": 5,
-            "nombre": "Pakistán",
-            "capital": "Islamabad",
-            "habitantes": 240485000,
-            "platoTipico": "Biryani",
-            "eslogan": "Iman, Ittehad, Nazm-o-Nizam"
-        },
-        {
-            "posicion": 6,
-            "nombre": "Brasil",
-            "capital": "Brasília",
-            "habitantes": 215313000,
-            "platoTipico": "Feijoada",
-            "eslogan": "Ordem e Progresso"
-        },
-        {
-            "posicion": 7,
-            "nombre": "Nigeria",
-            "capital": "Abuya",
-            "habitantes": 223804000,
-            "platoTipico": "Jollof Rice",
-            "eslogan": "Peace and Unity"
-        },
-        {
-            "posicion": 8,
-            "nombre": "Bangladesh",
-            "capital": "Daca",
-            "habitantes": 170099000,
-            "platoTipico": "Biryani",
-            "eslogan": "Sonar Bangla"
-        },
-        {
-            "posicion": 9,
-            "nombre": "Rusia",
-            "capital": "Moscú",
-            "habitantes": 144444000,
-            "platoTipico": "Borscht",
-            "eslogan": "Por el bien de Rusia"
-        },
-        {
-            "posicion": 10,
-            "nombre": "México",
-            "capital": "Ciudad de México",
-            "habitantes": 128932000,
-            "platoTipico": "Mole",
-            "eslogan": "Tierra de Culturas"
-        }
-    ]
+  "santos": [
+    {
+      "id": 1,
+      "nombre": "Seiya",
+      "constelacion": "Pegaso"
+    },
+    {
+      "id": 2,
+      "nombre": "Shiryu",
+      "constelacion": "Dragón"
+    },
+    {
+      "id": 3,
+      "nombre": "Hyoga",
+      "constelacion": "Cisne"
+    },
+    {
+      "id": 4,
+      "nombre": "Shun",
+      "constelacion": "Andrómeda"
+    },
+    {
+      "id": 5,
+      "nombre": "Ikki",
+      "constelacion": "Fénix"
+    },
+    {
+      "nombre": "Mü",
+      "constelacion": "Aries",
+      "id": 6
+    },
+    {
+      "nombre": "Aldebaran",
+      "constelacion": "Tauro",
+      "id": 7
+    },
+    {
+      "nombre": "Saga",
+      "constelacion": "Geminis",
+      "id": 8
+    },
+    {
+      "nombre": "Máscara de Muerte",
+      "constelacion": "Cancer",
+      "id": 9
+    },
+    {
+      "nombre": "Aioria",
+      "constelacion": "Leo",
+      "id": 10
+    },
+    {
+      "nombre": "Shaka",
+      "constelacion": "Virgo",
+      "id": 11
+    },
+    {
+      "nombre": "Dohko",
+      "constelacion": "Libra",
+      "id": 12
+    }
+  ],
+  "dioses": [
+    {
+      "id": 1,
+      "nombre": "Athena",
+      "de": "Tierra"
+    },
+    {
+      "id": 2,
+      "nombre": "Poseidón",
+      "de": "Mar"
+    },
+    {
+      "id": 3,
+      "nombre": "Hades",
+      "de": "Inframundo"
+    },
+    {
+      "id": 4,
+      "nombre": "Zeus",
+      "de": "Cielo"
+    }
+  ]
 }
