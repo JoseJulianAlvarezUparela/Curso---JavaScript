@@ -1,0 +1,31 @@
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a:hover{
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
