@@ -28,4 +28,14 @@ img {
     height: auto;
 }
 
+.error {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
 
+.loader{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
