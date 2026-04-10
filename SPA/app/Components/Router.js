@@ -23,9 +23,26 @@ export function Router() {
                 if ($loader) $loader.style.display = "none";
             },
         });
-    } else if (hash === "#/search") {
-        $main.innerHTML = "<h2>SECTION SEARCH</h2>";
-        if ($loader) $loader.style.display = "none";
+    } else if (hash.startsWith("#/search")) {
+        const query = decodeURIComponent(hash.split("#/search/")[1] || "");
+        if (!query) {
+            $main.innerHTML = "<h2>Escribe algo para buscar</h2>";
+            if ($loader) $loader.style.display = "none";
+            return;
+        }
+        ajax({
+            url: `${api.SEARCH}${query}`,
+            cbSuccess: (posts) => {
+                let html = "";
+                if (!posts.length) {
+                    html = "<h2>No se encontraron resultados</h2>";
+                } else {
+                    posts.forEach((post) => (html += PostCard(post)));
+                }
+                $main.innerHTML = html;
+                if ($loader) $loader.style.display = "none";
+            },
+        });
     } else if (hash === "#/contact") {
         $main.innerHTML = "<h2>SECTION CONTACT</h2>";
         if ($loader) $loader.style.display = "none";

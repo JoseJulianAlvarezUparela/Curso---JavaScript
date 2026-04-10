@@ -4,7 +4,7 @@ const NAME = "malvestida",
     API_WP = `${SITE}/wp/v2`,
     POSTS = `${API_WP}/posts`,
     POST = `${API_WP}/posts`,
-    SEARCH = `${API_WP}/search?_embed&search=`;
+    SEARCH = `${API_WP}/posts?_embed&search=`;
 
 export default {
     NAME,
