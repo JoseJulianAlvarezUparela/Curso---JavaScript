@@ -1,8 +1,8 @@
-const NAME = "css-tricks",
+const NAME = "malvestida",
     DOMAIN = `https://${NAME}.com`,
     SITE = `${DOMAIN}/wp-json`,
     API_WP = `${SITE}/wp/v2`,
-    POSTS = `${API_WP}/posts?_embed`,
+    POSTS = `${API_WP}/posts`,
     POST = `${API_WP}/posts`,
     SEARCH = `${API_WP}/search?_embed&search=`;
 

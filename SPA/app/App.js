@@ -1,28 +1,15 @@
-import api from "./Helpers/wp_api.js";
-import ajax from "./Helpers/ajax.js"
 import { Header } from "./Components/header.js";
 import { Loader } from "./Components/Loader.js"; 
-import { Posts } from "./Components/Posts.js";
-import {PostCard} from "./Components/PostCard.js"   
+import { Main } from "./Components/main.js";
+import { Router } from "./Components/Router.js";
 
 export function App () {
-    const d = document,
-    $root = d.getElementById("root");
+    const $root = document.getElementById("root");
 
+    $root.innerHTML = null;
     $root.appendChild(Header())
-    $root.appendChild(Posts())
+    $root.appendChild(Main())
     $root.appendChild(Loader())
 
-    ajax({
-        url: api.POSTS,
-        cbSuccess: (posts) => {
-            let html = "";
-            posts.forEach((post) => {
-                html += PostCard(post);
-            }) 
-            d.querySelector(".loader").style.display = "none";
-            d.getElementById("posts").innerHTML = html;
-            console.log(posts)      
-        },
-    })
+    Router()
 }
